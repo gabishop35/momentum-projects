@@ -13,11 +13,22 @@ header {
     margin-bottom: 1rem;
 }
 
-.adopt {
-    padding: 1.5rem;
-    margin-bottom: 1rem;
+body {
+    font-family: "open sans"
 }
 
+h3 {
+    margin: 5px;
+}
+.adopt {
+    padding: 1rem;
+    margin: 5px;
+}
+
+.sentence {
+    margin-left: 5px;
+    padding: 1rem;
+}
 img {
     width: 100%;
     
@@ -35,7 +46,8 @@ ul {
 
 .dog {
     margin: .5rem;
-    width: 30%
+    width: 30%;
+    font-family: "Oswald";
 }
 
 .info {
@@ -47,9 +59,41 @@ li {
     background-color: #9ED8EA;
     border-radius: 10px;
     padding: 3px;
+    font-family:"open sans"
 }
 
-.end-photos{
-    width:33.3%;
+.end-photos {
+    height: 300px;
     display: flex;
+}
+
+
+.donate {
+    background: linear-gradient(rgba(0, 0, 255, 0.5), rgba(0, 0, 255, 0.5)), url(starter_files/images/donate.jpg) center/cover;
+    width: 33.3%;
+    display: flex;
+    height: 300px;
+}
+
+.volunteer {
+    
+    background: linear-gradient(rgba(0, 0, 255, .5), rgba(0, 0, 255, .5)), url(starter_files/images/volunteer.jpg) center/cover;
+    width: 33.3%;
+    display: flex;
+    height: 300px;
+}
+
+.location {
+    background: linear-gradient(rgba(0, 0, 255, .5), rgba(0, 0, 255, 0.5)), url(starter_files/images/location.png) center/cover;
+    width: 33.3%;
+    display: flex;
+    height: 300px;
+}
+
+.text {
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color: white;
+    font-family: "oswald"
 }
